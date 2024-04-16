@@ -1,0 +1,153 @@
+<nav id="navbar">
+  <header>CC14 Documentation</header>
+  <link rel="stylesheet" href="styles.css">
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+
+    <li><a class="nav-link" href="#Github">Github</a></li>
+
+    <li><a class="nav-link" href="#VsCode">Vs Code</a></li>
+
+    <li><a class="nav-link" href="#HTML">Basic HTML</a></li>
+
+    <li><a class="nav-link" href="#CSS">CSS</a></li>
+
+    <li><a class="nav-link" href="#WSL">WSL</a></li>
+    
+    <li><a class="nav-link" href="#Linux">Linux</a></li>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        Bellow are the lessons I learned during the journey in CC14.
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Github">
+    <header>GitHub</header>
+    <article>
+      <h4>Importance:</h4>
+      <p>
+        GitHub is a platform for version control and collaboration. It's widely used in software development for managing codebases, tracking changes, and facilitating teamwork.
+      </p>
+      <h4>Key Notes:</h4>
+      <p>
+        <ul>
+          <li>Repositories: Projects are organized into repositories where code, issues, and project documentation are stored.</li>
+          <li>Branches: Developers work on separate branches to isolate changes before merging them into the main codebase (often called the "master" branch).</li>
+          <li>Pull Requests: Changes are proposed and reviewed through pull requests, allowing for discussion and feedback before merging.</li>
+        </ul>
+      </p>
+      <h4>Shortcuts:</h4>
+      <ul>
+        <li>git clone (repository url): Clone a repository to your local machine.</li>
+        <li>git add .: Add all changes in the current directory to the staging area.</li>
+        <li>git commit -m "Commit message": Commit staged changes with a descriptive message.</li>
+        <li>git push origin (branch name): Push committed changes to a remote repository.</li>
+        <li>git pull: Fetch and merge changes from the remote repository.</li>
+      </ul>
+    </article>
+  </section>
+  
+  <section class="main-section" id="VsCode">
+    <header>VS Code (Visual Studio Code)</header>
+    <article>
+      <h4>Importance: </h4>
+      <p>VS Code is a popular code editor known for its versatility, extensive features, and customization options.</p>
+      <h4>Key Notes:</h4>
+      <ul>
+        <li>Extensions: VS Code supports a vast array of extensions for language support, debugging, version control, and more.</li>
+        <li>Integrated Terminal: It includes a built-in terminal, allowing developers to run commands without leaving the editor.</li>
+        <li>IntelliSense: Provides code completion suggestions, syntax highlighting, and other intelligent features based on context.</li>
+      </ul>
+      <h4>Shortcuts:</h4>
+      <ul>
+        <li>Ctrl + (Backtick): Open integrated terminal.</li>
+        <li>Ctrl + Shift + P: Open command palette for quick access to various commands.</li>
+        <li>Ctrl + Shift + L: Select all occurrences of the current selection.</li>
+        <li>Ctrl + /: Toggle line comment.</li>
+        <li>Ctrl + Space: Trigger IntelliSense</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="main-section" id="HTML">
+    <header>Basic HTML</header>
+    <article>
+      <h4>Importance:</h4>
+      <p>HTML (Hypertext Markup Language) is a fundamental languages for building web pages.</p>
+      <h4>Key Notes:</h4>
+      <ul>
+        <li>HTML: Defines the structure and content of web pages.</li>
+      </ul>
+      <h4>Shortcuts:</h4>
+      <ul>
+        <li> < !DOCTYPE html>: Declaration of HTML5.</li>
+        <li> < tagname>: Opening tag of an HTML element.</li>
+        <li> < /tagname>: Closing tag of an HTML element.</li>
+      </ul>
+    </article>
+
+  </section>
+  <section class="main-section" id="CSS">
+    <header>CSS</header>
+    <h4>Importance:</h4>
+    <p>CSS (Cascading Style Sheets) is used to better enhance the styles in your html file.</p>
+    <h4>Key Notes:</h4>
+    <ul>
+      <li>CSS: Controls the presentation and layout, including styles like colors, fonts, and positioning.</li>
+    </ul>
+    <h4>Shortcuts:</h4>
+    <ul>
+      <li>selector { property: value; }: Basic CSS syntax.</li>
+      <li>color: #hex_value;: Set text color.</li>
+      <li>font-family: font_name;: Specify font family.</li>
+      <li>margin: value;, padding: value;: Set margin and padding.</li>
+    </ul>
+  </section>
+
+  <section class="main-section" id="WSL">
+    <header>WSL</header>
+    <article>
+      <h4>Importance:</h4>
+      <p>WSL  (Windows Subsystem for Linux) allows running a Linux distribution alongside Windows, enabling developers to use Linux tools and workflows natively on Windows.</p>
+      <h4>Key Notes:</h4>
+      <ul>
+        <li>Integration: Provides seamless integration between Windows and Linux environments, including file system access and command-line tools.</li>
+        <li>Compatibility: Supports a wide range of Linux distributions, such as Ubuntu, Debian, and CentOS.</li>
+        <li>Development: Enables running Linux-specific development environments and tools without needing a separate Linux machine or virtualization.</li>
+      </ul>
+      <h4>Shortcuts:</h4>
+      <ul>
+        <li>wsl: Launches the default Linux distribution.</li>
+        <li>wsl --list: Lists all installed Linux distributions.</li>
+        <li>wsl --set-version <distribution name> <version number>: Sets the WSL version for a distribution.</li>
+        <li>wsl --shutdown: Shuts down all running WSL distributions.</li>
+      </ul>
+    </article>
+  </section>
+  
+  <section class="main-section" id="Linux">
+    <header>Linux</header>
+    <article>
+     <h4>Importance:</h4>
+     <p>Linux is an open-source operating system widely used in server environments, development, and embedded systems.</p>
+     <h4>Key Notes:</h4>
+     <ul>
+      <li>Distributions: There are various Linux distributions (distros) tailored for different purposes, such as Ubuntu, Fedora, and CentOS.</li>
+      <li>Terminal: The command-line interface (CLI) is a central part of Linux, providing powerful tools and utilities for system management and development.</li>
+      <li>Package Management: Linux distributions use package managers like apt (for Debian-based) and yum (for Red Hat-based) to install, update, and manage software packages.</li>
+     </ul>
+     <h4>Shortcuts:</h4>
+     <ul>
+      <li>Ctrl + C: Interrupt current process.</li>
+      <li>Ctrl + D: Logout or exit terminal.</li>
+      <li>Ctrl + Z: Suspend a process.</li>
+      <li>Ctrl + R: Search command history.</li>
+      <li>Ctrl + L: Clear the terminal screen.</li>
+     </ul>
+    </article>
+  </section>
+</main>
